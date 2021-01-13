@@ -1,0 +1,192 @@
+Sending build context to Docker daemon   29.7kB
+Step 1/5 : FROM chrisioa/dsamdb:latest
+ ---> dfa0b0e1dbf4
+Step 2/5 : COPY postgresql.conf /tmp/
+ ---> Using cache
+ ---> fc1a49a72eed
+Step 3/5 : COPY server.crt /tmp/
+ ---> Using cache
+ ---> 56c4385a83d9
+Step 4/5 : COPY server.key /tmp/
+ ---> Using cache
+ ---> 22ab8194897b
+Step 5/5 : COPY mutate.sh /docker-entrypoint-initdb.d/
+ ---> Using cache
+ ---> 1b3d7d59ea7a
+Successfully built 1b3d7d59ea7a
+Successfully tagged chris_0:latest
+Sending build context to Docker daemon   29.7kB
+Step 1/5 : FROM chrisioa/dsamdb:latest
+ ---> dfa0b0e1dbf4
+Step 2/5 : COPY postgresql.conf /tmp/
+ ---> Using cache
+ ---> 9786282ce8d4
+Step 3/5 : COPY server.crt /tmp/
+ ---> Using cache
+ ---> 5355faa35224
+Step 4/5 : COPY server.key /tmp/
+ ---> Using cache
+ ---> ea8c8e6b4d6e
+Step 5/5 : COPY mutate.sh /docker-entrypoint-initdb.d/
+ ---> Using cache
+ ---> d85a952520d9
+Successfully built d85a952520d9
+Successfully tagged chris_1:latest
+Sending build context to Docker daemon   29.7kB
+Step 1/5 : FROM chrisioa/dsamdb:latest
+ ---> dfa0b0e1dbf4
+Step 2/5 : COPY postgresql.conf /tmp/
+ ---> Using cache
+ ---> fc1a49a72eed
+Step 3/5 : COPY server.crt /tmp/
+ ---> Using cache
+ ---> 56c4385a83d9
+Step 4/5 : COPY server.key /tmp/
+ ---> Using cache
+ ---> 22ab8194897b
+Step 5/5 : COPY mutate.sh /docker-entrypoint-initdb.d/
+ ---> Using cache
+ ---> 1b3d7d59ea7a
+Successfully built 1b3d7d59ea7a
+Successfully tagged chris_2:latest
+Sending build context to Docker daemon   29.7kB
+Step 1/5 : FROM chrisioa/dsamdb:latest
+ ---> dfa0b0e1dbf4
+Step 2/5 : COPY postgresql.conf /tmp/
+ ---> Using cache
+ ---> 55810f6f0905
+Step 3/5 : COPY server.crt /tmp/
+ ---> Using cache
+ ---> de0e2423efc2
+Step 4/5 : COPY server.key /tmp/
+ ---> Using cache
+ ---> 431b392fe170
+Step 5/5 : COPY mutate.sh /docker-entrypoint-initdb.d/
+ ---> Using cache
+ ---> d56fab1261e2
+Successfully built d56fab1261e2
+Successfully tagged chris_3:latest
+Sending build context to Docker daemon   29.7kB
+Step 1/5 : FROM chrisioa/dsamdb:latest
+ ---> dfa0b0e1dbf4
+Step 2/5 : COPY postgresql.conf /tmp/
+ ---> Using cache
+ ---> 319b1d0d2ce4
+Step 3/5 : COPY server.crt /tmp/
+ ---> Using cache
+ ---> 00a265c859be
+Step 4/5 : COPY server.key /tmp/
+ ---> Using cache
+ ---> 4db232e5bf2c
+Step 5/5 : COPY mutate.sh /docker-entrypoint-initdb.d/
+ ---> Using cache
+ ---> 0f31cbb42bbb
+Successfully built 0f31cbb42bbb
+Successfully tagged chris_4:latest
+Sending build context to Docker daemon   29.7kB
+Step 1/5 : FROM chrisioa/dsamdb:latest
+ ---> dfa0b0e1dbf4
+Step 2/5 : COPY postgresql.conf /tmp/
+ ---> Using cache
+ ---> 97dc549faff4
+Step 3/5 : COPY server.crt /tmp/
+ ---> Using cache
+ ---> 791c4f817e06
+Step 4/5 : COPY server.key /tmp/
+ ---> Using cache
+ ---> a7cfdd6f8ba9
+Step 5/5 : COPY mutate.sh /docker-entrypoint-initdb.d/
+ ---> Using cache
+ ---> 3bd9b6960a25
+Successfully built 3bd9b6960a25
+Successfully tagged chris_5:latest
+Sending build context to Docker daemon   29.7kB
+Step 1/5 : FROM chrisioa/dsamdb:latest
+ ---> dfa0b0e1dbf4
+Step 2/5 : COPY postgresql.conf /tmp/
+ ---> Using cache
+ ---> c938224a2426
+Step 3/5 : COPY server.crt /tmp/
+ ---> Using cache
+ ---> 67b64f90dfc5
+Step 4/5 : COPY server.key /tmp/
+ ---> Using cache
+ ---> 0d19cd04c9d4
+Step 5/5 : COPY mutate.sh /docker-entrypoint-initdb.d/
+ ---> Using cache
+ ---> 6f537b7681a4
+Successfully built 6f537b7681a4
+Successfully tagged chris_6:latest
+Sending build context to Docker daemon   29.7kB
+Step 1/5 : FROM chrisioa/dsamdb:latest
+ ---> dfa0b0e1dbf4
+Step 2/5 : COPY postgresql.conf /tmp/
+ ---> Using cache
+ ---> 38a2cc340614
+Step 3/5 : COPY server.crt /tmp/
+ ---> Using cache
+ ---> ce02f925ce90
+Step 4/5 : COPY server.key /tmp/
+ ---> Using cache
+ ---> dfa5d50c59e8
+Step 5/5 : COPY mutate.sh /docker-entrypoint-initdb.d/
+ ---> Using cache
+ ---> 02e4c9dfed8e
+Successfully built 02e4c9dfed8e
+Successfully tagged chris_7:latest
+Python 3.6.9 (default, Oct  8 2020, 12:12:24) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.16.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: ---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/deepc/ben_experiment/postgres/postgres_mutate.py in <module>
+     18 		if(p.poll() is None):
+     19 			import IPython
+---> 20 			IPython.embed()
+     21 			new_p = subprocess.Popen(["fuzztainer", "-r", "-w", "./PGResults/" + str(i), "chris_" + str(i)], stdout=subprocess.PIPE)
+     22 			processes[i] = new_p
+
+/home/deepc/venv/ft/lib/python3.6/site-packages/IPython/terminal/embed.py in embed(**kwargs)
+    387         frame.f_code.co_filename, frame.f_lineno), **kwargs)
+    388     shell(header=header, stack_depth=2, compile_flags=compile_flags,
+--> 389         _call_location_id='%s:%s' % (frame.f_code.co_filename, frame.f_lineno))
+    390     InteractiveShellEmbed.clear_instance()
+    391     #restore previous instance
+
+/home/deepc/venv/ft/lib/python3.6/site-packages/IPython/terminal/embed.py in __call__(self, header, local_ns, module, dummy, stack_depth, global_ns, compile_flags, **kw)
+    227         # our call and get the original caller's namespaces.
+    228         self.mainloop(local_ns, module, stack_depth=stack_depth,
+--> 229                       global_ns=global_ns, compile_flags=compile_flags)
+    230 
+    231         self.banner2 = self.old_banner2
+
+/home/deepc/venv/ft/lib/python3.6/site-packages/IPython/terminal/embed.py in mainloop(self, local_ns, module, stack_depth, display_banner, global_ns, compile_flags)
+    322 
+    323         with self.builtin_trap, self.display_trap:
+--> 324             self.interact()
+    325         
+    326         # now, purge out the local namespace of IPython's hidden variables.
+
+/home/deepc/venv/ft/lib/python3.6/site-packages/IPython/terminal/interactiveshell.py in interact(self, display_banner)
+    544 
+    545             try:
+--> 546                 code = self.prompt_for_code()
+    547             except EOFError:
+    548                 if (not self.confirm_exit) \
+
+/home/deepc/venv/ft/lib/python3.6/site-packages/IPython/terminal/interactiveshell.py in prompt()
+    288             def prompt():
+    289                 prompt_text = "".join(x[1] for x in self.prompts.in_prompt_tokens())
+--> 290                 lines = [input(prompt_text)]
+    291                 prompt_continuation = "".join(x[1] for x in self.prompts.continuation_prompt_tokens())
+    292                 while self.check_complete('\n'.join(lines))[0] == 'incomplete':
+
+/home/deepc/venv/ft/lib/python3.6/site-packages/IPython/utils/py3compat.py in input(prompt)
+    145 # to forward requests to a frontend.
+    146 def input(prompt=''):
+--> 147     return builtin_mod.input(prompt)
+    148 
+    149 builtin_mod_name = "builtins"
+
+KeyboardInterrupt: 

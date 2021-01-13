@@ -1,0 +1,408 @@
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'NULL-SHA' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+79c79
+< #tcp_keepalives_idle = 0		# TCP_KEEPIDLE, in seconds;
+---
+> tcp_keepalives_idle = 0		# TCP_KEEPIDLE, in seconds;
+81c81
+< #tcp_keepalives_interval = 0		# TCP_KEEPINTVL, in seconds;
+---
+> tcp_keepalives_interval = 0		# TCP_KEEPINTVL, in seconds;
+83c83
+< #tcp_keepalives_count = 0		# TCP_KEEPCNT;
+---
+> tcp_keepalives_count = 0		# TCP_KEEPCNT;
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'secp384r1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = off
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = on
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'NULL-MD5' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'NULL-SHA' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+79c79
+< #tcp_keepalives_idle = 0		# TCP_KEEPIDLE, in seconds;
+---
+> tcp_keepalives_idle = 0		# TCP_KEEPIDLE, in seconds;
+81c81
+< #tcp_keepalives_interval = 0		# TCP_KEEPINTVL, in seconds;
+---
+> tcp_keepalives_interval = 0		# TCP_KEEPINTVL, in seconds;
+83c83
+< #tcp_keepalives_count = 0		# TCP_KEEPCNT;
+---
+> tcp_keepalives_count = 0		# TCP_KEEPCNT;
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'secp384r1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = off
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = on
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
+98,108c98,108
+< #ssl = off
+< #ssl_ca_file = ''
+< #ssl_cert_file = 'server.crt'
+< #ssl_crl_file = ''
+< #ssl_key_file = 'server.key'
+< #ssl_ciphers = 'HIGH:MEDIUM:+3DES:!aNULL' # allowed SSL ciphers
+< #ssl_prefer_server_ciphers = on
+< #ssl_ecdh_curve = 'prime256v1'
+< #ssl_dh_params_file = ''
+< #ssl_passphrase_command = ''
+< #ssl_passphrase_command_supports_reload = off
+---
+> ssl = on
+> ssl_ca_file = ''
+> ssl_cert_file = 'server.crt'
+> ssl_crl_file = ''
+> ssl_key_file = 'server.key'
+> ssl_ciphers = 'NULL-MD5' # allowed SSL ciphers
+> ssl_prefer_server_ciphers = on
+> ssl_ecdh_curve = 'prime256v1'
+> ssl_dh_params_file = ''
+> ssl_passphrase_command = ''
+> ssl_passphrase_command_supports_reload = off
