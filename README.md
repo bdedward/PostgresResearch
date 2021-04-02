@@ -8,4 +8,4 @@ This software package represents what I worked on with the SEFCOM group (Fuzztai
 * Python process manager to keep the Fuzztainer/AFL sessions alive
 * and more
 
-Most the scripts should have an explanation or be self explanatory 
+Most of the scripts should have an explanation or be self explanatory 
